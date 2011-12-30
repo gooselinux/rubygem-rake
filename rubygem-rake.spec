@@ -10,7 +10,7 @@ Summary: Ruby based make-like utility
 Name: rubygem-%{gemname}
 
 Version: 0.8.7
-Release: 2.1%{?dist}
+Release: 2.1%{?dist}.goose.2
 Group: Development/Languages
 License: MIT
 URL: http://rake.rubyforge.org
@@ -84,6 +84,12 @@ ruby ./bin/rake test || :
 
 
 %changelog
+* Fri Dec 30 2011 Clint Savage <herlo@gooseproject.org> - 0.8.7-2.1.goose.2
+- GoOSe Koji rebuild
+
+* Fri Dec 30 2011 Clint Savage <herlo@gooseproject.org> - 0.8.7-2.1.goose.1
+- Rebuilding for mock bootstrapping
+
 * Mon Nov 30 2009 Dennis Gregorovic <dgregor@redhat.com> - 0.8.7-2.1
 - Rebuilt for RHEL 6
 
